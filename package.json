@@ -1,10 +1,8 @@
 {
-  "name": "myFirstReact",
+  "name": "myfirstreact",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-lines-ellipsis": "^0.13.2",
@@ -28,7 +26,9 @@
   "homepage": "https://github.com/jes89/myFirstReact",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^4.19.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jes89/myFirstReact.git"
